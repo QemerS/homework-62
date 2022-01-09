@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Qemer\\Desktop\\62\\Benco\\Benco\\Benco.csproj": {}
+    "C:\\Users\\Qemer\\Desktop\\62\\homework-62\\Benco\\Benco\\Benco.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Qemer\\Desktop\\62\\Benco\\Benco\\Benco.csproj": {
+    "C:\\Users\\Qemer\\Desktop\\62\\homework-62\\Benco\\Benco\\Benco.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Qemer\\Desktop\\62\\Benco\\Benco\\Benco.csproj",
+        "projectUniqueName": "C:\\Users\\Qemer\\Desktop\\62\\homework-62\\Benco\\Benco\\Benco.csproj",
         "projectName": "Benco",
-        "projectPath": "C:\\Users\\Qemer\\Desktop\\62\\Benco\\Benco\\Benco.csproj",
+        "projectPath": "C:\\Users\\Qemer\\Desktop\\62\\homework-62\\Benco\\Benco\\Benco.csproj",
         "packagesPath": "C:\\Users\\Qemer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Qemer\\Desktop\\62\\Benco\\Benco\\obj\\",
+        "outputPath": "C:\\Users\\Qemer\\Desktop\\62\\homework-62\\Benco\\Benco\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Qemer\\AppData\\Roaming\\NuGet\\NuGet.Config",

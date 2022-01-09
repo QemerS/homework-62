@@ -1,0 +1,58 @@
+﻿@*@foreach (var item in collection)
+    {}*@
+
+<div class="product-img">
+    <a asp-controller="Shop" asp-action="Detail">
+        <img alt="" src="~/assets/img/products/1.jpg">
+    </a>
+    <div class="product-action-2">
+        <a href="#" title="Add to Compare" class="action-plus-2 tooltip">
+            <i class="zmdi zmdi-refresh"></i>
+        </a>
+        <a href="#" title="Add to Wishlist" class="action-plus-2 tooltip">
+            <i class="zmdi zmdi-favorite-outline"></i>
+        </a>
+        <a href="#" title="Quick View" data-target="#exampleModal" data-toggle="modal" class="action-plus-2 tooltip">
+            <i class="zmdi zmdi-search"></i>
+        </a>
+        <a href="#" title="Add To Cart" class="action-plus-2 tooltip">
+            <i class="zmdi zmdi-shopping-cart-plus"></i>
+        </a>
+    </div>
+    <div class="rating-box">
+        <a href="#" title="1 star">
+            <i class="far fa-star"></i>
+        </a>
+        <a href="#" title="2 star">
+            <i class="far fa-star"></i>
+        </a>
+        <a href="#" title="3 star">
+            <i class="far fa-star"></i>
+        </a>
+        <a href="#" title="4 star">
+            <i class="far fa-star"></i>
+        </a>
+        <a href="#" title="5 star">
+            <i class="far fa-star"></i>
+        </a>
+    </div>
+</div>
+<div class="product-content text-center">
+    <h4>
+        <a asp-controller="Shop" asp-action="Detail">Commodo dolor</a>
+    </h4>
+    <div class="product-price-2">
+        <div class="price-box">
+            <del>
+                <span class="amount">
+                    <span class="Price-currencySymbol">$</span>80.00
+                </span>
+            </del>
+            <ins>
+                <span class="amount">
+                    <span class="Price-currencySymbol">$</span>75.00
+                </span>
+            </ins>
+        </div>
+    </div>
+</div>

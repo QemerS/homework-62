@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NyK5Ah8y7CnaZXlt8ko4koU97enD47uKp5m4rkDu2x+aQnBSaxn9KkZ4g18X0PHKnPVoXYho0NYf7z9ep0Y/Rw==",
+  "dgSpecHash": "lLk6sgqXc4vt6zGAtWABTSaBJC1Ia2rNYo2d2EeXJCdC2/7QS4nEt8f4EF9JtoAyRJKBDJ6BDk+NTghISxQniA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Qemer\\Desktop\\62\\Benco\\Benco\\Benco.csproj",
+  "projectFilePath": "C:\\Users\\Qemer\\Desktop\\62\\homework-62\\Benco\\Benco\\Benco.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Qemer\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Qemer\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
