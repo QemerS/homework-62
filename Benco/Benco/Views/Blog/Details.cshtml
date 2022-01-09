@@ -4,5 +4,331 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<!-- breadcrumbs area start -->
+<div class="title-breadcrumbs">
+    <div class="title-breadcrumbs-inner">
+        <div class="container">
+            <nav class="woocommerce-breadcrumb">
+                <a asp-controller="Home" asp-action="Index">Home</a>
+                <span class="separator">/</span> Single Blog
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- breadcrumbs area End -->
+<!-- Single Blog Content start -->
+<div class="blog-page-area pt-100 pb-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 col-lg-9 col-md-12 col-12">
+                <div class="single-blog page-content blog-page blog-sidebar right-sidebar">
+                    <!-- blog post -->
+                    <article class="text-center">
+                        <header class="entry-header">
+                            <span class="post-category">
+                                <i class="fas fa-folder"></i>
+                                <a href="#"> Fashion</a>
+                            </span>
+                            <h1 class="entry-title">
+                                <a href="#">Blog image post</a>
+                            </h1>
+                            <span class="post-author">
+                                <span class="post-by">
+                                    <i class="fas fa-user"></i> Posts by :
+                                </span> admin
+                            </span>
+                            <span class="post-separator">|</span>
+                            <span class="post-date">
+                                <i class="fas fa-calendar-alt"></i> 10/03/2018
+                            </span>
+                        </header>
+                        <div class="post-thumbnail">
+                            <a asp-controller="Blog" asp-action="Detail">
+                                <img src="~/assets/img/blog/blog1.jpg" alt="bege blog images">
+                            </a>
+                        </div>
+                        <div class="postinfo-wrapper">
+                            <p>
+                                Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero
+                                eu augue condimentum rhoncus. Praesent ornare tortor ac ante egestas hendrerit. Aliquam et
+                                metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo ultrices, mollis ligula in,
+                                finibus tortor. Mauris eu dui ut lectus fermentum eleifend. Pellentesque faucibus sem ante,
+                                non malesuada odio varius nec. Suspendisse potenti.
+                            </p>
+                            <blockquote>
+                                <p>
+                                    Quisque semper nunc vitae erat pellentesque, ac placerat arcu consectetur. In venenatis elit
+                                    ac ultrices convallis. Duis est nisi, tincidunt ac urna sed, cursus blandit lectus. In
+                                    ullamcorper sit amet ligula ut eleifend. Proin dictum tempor ligula, ac feugiat metus.
+                                    Sed finibus tortor eu scelerisque scelerisque.
+                                </p>
+                            </blockquote>
+                            <p>
+                                Aenean et tempor eros, vitae sollicitudin velit. Etiam varius enim nec quam tempor, sed efficitur
+                                ex ultrices. Phasellus pretium est vel dui vestibulum condimentum. Aenean nec suscipit nibh.
+                                Phasellus nec lacus id arcu facilisis elementum. Curabitur lobortis, elit ut elementum congue,
+                                erat ex bibendum odio, nec iaculis lacus sem non lorem. Duis suscipit metus ante, sed convallis
+                                quam posuere quis. Ut tincidunt eleifend odio, ac fringilla mi vehicula nec. Nunc vitae lacus
+                                eget lectus imperdiet tempus sed in dui. Nam molestie magna at risus consectetur, placerat
+                                suscipit justo dignissim. Sed vitae fringilla enim, nec ullamcorper arcu.
+                            </p>
+                            <p>
+                                Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem
+                                non mollis. Praesent pretium tellus in tortor viverra condimentum. Nullam dignissim facilisis
+                                nisl, accumsan placerat justo ultricies vel. Vivamus finibus mi a neque pretium, ut convallis
+                                dui lacinia. Morbi a rutrum velit. Curabitur sagittis quam quis consectetur mattis. Aenean
+                                sit amet quam vel turpis interdum sagittis et eget neque. Nunc ante quam, luctus et neque
+                                a, interdum iaculis metus. Aliquam vel ante mattis, placerat orci id, vehicula quam. Suspendisse
+                                quis eros cursus, viverra urna sed, commodo mauris. Cras diam arcu, fringilla a sem condimentum,
+                                viverra facilisis nunc. Curabitur vitae orci id nulla maximus maximus. Nunc pulvinar sollicitudin
+                                molestie.
+                            </p>
+                            <div class="single-post-tag">
+                                Tags:<a href="#" rel="tag">fashion</a>,<a href="#" rel="tag">t-shirt</a>,<a href="#" rel="tag">white</a>
+                            </div>
 
+                            <div class="social-sharing">
+                                <h3>Share this post</h3>
+                                <div class="social-sharie">
+                                    <ul class="social-icons">
+                                        <li>
+                                            <a class="facebook social-icon" href="#">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="twitter social-icon" href="#">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="pinterest social-icon" href="#">
+                                                <i class="fab fa-pinterest-p"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="gplus social-icon" href="#">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- blog post end -->
+                    <div class="relatedposts">
+                        <h3>Related posts</h3>
+                        <div class="row">
+                            <!-- related post -->
+                            <div class="relatedthumb col-md-4 col-sm-6">
+                                <div class="image">
+                                    <img src="~/assets/img/blog/related1.jpg" alt="">
+                                </div>
+                                <h4>
+                                    <a rel="external" asp-controller="Blog" asp-action="Detail">Libero lorem</a>
+                                </h4>
+                                <span class="post-date"> September 4, 2017 </span>
+                            </div>
+                            <!-- related post end -->
+                            <!-- related post -->
+                            <div class="relatedthumb col-md-4 col-sm-6">
+                                <div class="image">
+                                    <img src="~/assets/img/blog/related2.jpg" alt="">
+                                </div>
+                                <h4>
+                                    <a rel="external" asp-controller="Blog" asp-action="Detail">Libero lorem</a>
+                                </h4>
+                                <span class="post-date"> September 4, 2017 </span>
+                            </div>
+                            <!-- related post end -->
+                            <!-- related post -->
+                            <div class="relatedthumb col-md-4 col-sm-6">
+                                <div class="image">
+                                    <img src="~/assets/img/blog/related3.jpg" alt="">
+                                </div>
+                                <h4>
+                                    <a rel="external" asp-controller="Blog" asp-action="Detail">Libero lorem</a>
+                                </h4>
+                                <span class="post-date"> September 4, 2017 </span>
+                            </div>
+                            <!-- related post end -->
+                        </div>
+                    </div>
+                </div>
+                <div class="comments-area">
+                    <h3>3 comments</h3>
+                    <ol class="commentlist">
+                        <li>
+                            <div class="single-comment">
+                                <div class="comment-avatar">
+                                    <img src="~/assets/img/blog/road-avatar.jpg" alt="comment image bege">
+                                </div>
+                                <div class="comment-info">
+                                    <a href="#">admin</a>
+                                    <div class="reply">
+                                        <a href="#">Reply</a>
+                                    </div>
+                                    <span class="date">October 6, 2014 at 1:38 am</span>
+                                    <p>just a nice post</p>
+                                </div>
+                            </div>
+                            <ol>
+                                <li>
+                                    <div class="single-comment">
+                                        <div class="comment-avatar">
+                                            <img src="~/assets/img/blog/avatar.jpg" alt="comment image bege">
+                                        </div>
+                                        <div class="comment-info">
+                                            <a href="#">admin</a>
+                                            <div class="reply">
+                                                <a href="#">Reply</a>
+                                            </div>
+                                            <span class="date">October 6, 2014 at 1:38 am</span>
+                                            <p>just a nice post</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <ol class="commentlist">
+                        <li>
+                            <div class="single-comment">
+                                <div class="comment-avatar">
+                                    <img src="~/assets/img/blog/road-avatar.jpg" alt="comment image bege">
+                                </div>
+                                <div class="comment-info">
+                                    <a href="#">admin</a>
+                                    <div class="reply">
+                                        <a href="#">Reply</a>
+                                    </div>
+                                    <span class="date">October 6, 2014 at 1:38 am</span>
+                                    <p>just a nice post</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="comment-respond">
+                    <h3>Leave a Reply </h3>
+                    <small>Your email address will not be published. Required fields are marked *</small>
+                    <form action="#">
+                        <div class="text-filds">
+                            <label for="comment">Comment</label>
+                            <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea>
+                        </div>
+                        <div class="comment-input">
+                            <p class="comment-form-author">
+                                <label for="author">
+                                    Name
+                                    <span class="required">*</span>
+                                </label>
+                                <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required">
+                            </p>
+                            <p class="comment-form-email">
+                                <label for="email">
+                                    Email
+                                    <span class="required">*</span>
+                                </label>
+                                <input id="email" name="email" type="text" value="" size="30" maxlength="100" required="required">
+                            </p>
+                            <p class="comment-form-url">
+                                <label for="url">Website</label>
+                                <input id="url" name="url" type="text" value="" size="30" maxlength="200">
+                            </p>
+                        </div>
+                        <div class="form-submit">
+                            <input name="submit" type="submit" id="submit" class="submit" value="Post Comment">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-12 col-12">
+                <div class="blog_sidebar">
+                    <div class="row_products_side">
+                        <div class="product_left_sidbar">
+                            <div class="product-filter  mb-30">
+                                <h5>Search </h5>
+                                <div class="search__sidbar">
+                                    <div class="input_form">
+                                        <input type="text" id="search_input" name="s" value="Search..." class="input_text">
+                                        <button id="blogsearchsubmit" type="submit" class="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-filter  mb-30">
+                                <h5>Blog Archives </h5>
+                                <div class="blog_Archives__sidbar">
+                                    <ul>
+                                        <li>
+                                            <a href="#">March 2015</a>&nbsp;(1)
+                                        </li>
+                                        <li>
+                                            <a href="#">December 2014</a>&nbsp;(3)
+                                        </li>
+                                        <li>
+                                            <a href="#">November 2014</a>&nbsp;(4)
+                                        </li>
+                                        <li>
+                                            <a href="#">September 2014</a>&nbsp;(1)
+                                        </li>
+                                        <li>
+                                            <a href="#">August 2014</a>&nbsp;(1)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-filter  mb-30">
+                                <h5>Recent Posts</h5>
+                                <div class="blog_Archives__sidbar">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Blog image post</a>&nbsp;(1)
+                                        </li>
+                                        <li>
+                                            <a href="#">Post with Gallery</a>&nbsp;(3)
+                                        </li>
+                                        <li>
+                                            <a href="#">Post with Audio</a>&nbsp;(4)
+                                        </li>
+                                        <li>
+                                            <a href="#">Post with Video</a>&nbsp;(1)
+                                        </li>
+                                        <li>
+                                            <a href="#">Post with Text</a>&nbsp;(1)
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sidebar-single-banner">
+                                <a href="#">
+                                    <img src="~/assets/img/blog/shop-sidebar.jpg" alt="Banner">
+                                </a>
+                            </div>
+                            <div class="product-filter mb-30">
+                                <h5>product tags</h5>
+                                <div class="blog-tags">
+                                    <a href="#">brand</a>
+                                    <a href="#">black</a>
+                                    <a href="#">white</a>
+                                    <a href="#">chire</a>
+                                    <a href="#">table</a>
+                                    <a href="#">Lorem</a>
+                                    <a href="#">ipsum</a>
+                                    <a href="#">dolor</a>
+                                    <a href="#">sit</a>
+                                    <a href="#">amet</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Single Blog Content End -->
